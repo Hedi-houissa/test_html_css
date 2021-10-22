@@ -1,0 +1,492 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+.head {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+.header_marg {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.header_logo {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+}
+.link_list {
+  display: flex;
+  width: 70%;
+}
+.link {
+  margin: 1px;
+  text-decoration: none;
+  color: white;
+  font-family: "VCR OSD Mono";
+  font-size: 26px;
+  margin: 0px 5px;
+}
+.link:hover {
+  color: gray;
+}
+
+.link_img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.link_img img {
+  width: 50px;
+  margin: 5px;
+}
+
+.rain_img {
+  position: relative;
+  text-align: center;
+}
+
+.bg_rain {
+  width: 100%;
+}
+
+.gif_rain {
+  width: 100%;
+  position: absolute;
+}
+.element_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+
+}
+.btn_minit{
+  margin: auto;
+  width: 30%;
+}
+
+.minit_rest{
+width: 100%;
+
+} 
+.minit_hover {
+  width: 30%;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
+  position: absolute;
+}
+
+.btn_minit .minit_rest{
+  opacity: 1;
+}
+.btn_minit .minit_hover{
+  opacity: 0;
+}
+.btn_minit:hover .minit_rest{
+  opacity: 0;
+}
+.btn_minit:hover .minit_hover{
+  opacity: 1;
+}
+
+
+
+
+.element_img span {
+  color: #fc0;
+  font-family: Impact, "impactregular", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  /* text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px; */
+  text-shadow: rgb(0 0 0) 5px 0px, rgb(0 0 0) 4.90033px 0.993347px,
+    rgb(0 0 0) 4.6053px 1.94709px, rgb(0 0 0) 4.12668px 2.82321px,
+    rgb(0 0 0) 3.48353px 3.58678px, rgb(0 0 0) 2.70151px 4.20735px,
+    rgb(0 0 0) 1.81179px 4.6602px, rgb(0 0 0) 0.849836px 4.92725px,
+    rgb(0 0 0) -0.145998px 4.99787px, rgb(0 0 0) -1.13601px 4.86924px,
+    rgb(0 0 0) -2.08073px 4.54649px, rgb(0 0 0) -2.94251px 4.04248px,
+    rgb(0 0 0) -3.68697px 3.37732px, rgb(0 0 0) -4.28444px 2.57751px,
+    rgb(0 0 0) -4.71111px 1.67494px, rgb(0 0 0) -4.94996px 0.7056px,
+    rgb(0 0 0) -4.99147px -0.291871px, rgb(0 0 0) -4.83399px -1.27771px,
+    rgb(0 0 0) -4.48379px -2.2126px, rgb(0 0 0) -3.95484px -3.05929px,
+    rgb(0 0 0) -3.26822px -3.78401px, rgb(0 0 0) -2.4513px -4.35788px,
+    rgb(0 0 0) -1.53666px -4.75801px, rgb(0 0 0) -0.560763px -4.96846px,
+    rgb(0 0 0) 0.437495px -4.98082px, rgb(0 0 0) 1.41831px -4.79462px,
+    rgb(0 0 0) 2.34258px -4.41727px, rgb(0 0 0) 3.17346px -3.86382px,
+    rgb(0 0 0) 3.87783px -3.15633px, rgb(0 0 0) 4.4276px -2.32301px,
+    rgb(0 0 0) 4.80085px -1.39708px, rgb(0 0 0) 4.98271px -0.415447px;
+}
+
+.synopsis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5% 10%;
+}
+
+.synopsis_text {
+  width: 60%;
+}
+
+.first_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 0%;
+}
+.title_synopsis {
+  font-family: "Fipps";
+  font-size: 45px;
+  color: rgb(251, 251, 251);
+}
+
+.chinois {
+  font-family: "Noto Sans JP',sans-serif";
+  color: #ff6ee4;
+  font-weight: bold;
+  font-size: 37px;
+}
+.synopsis_par {
+  font-family: "VCR OSD Mono";
+  color: white;
+  font-size: 27px;
+}
+
+.synopsis_img {
+  width: 30%;
+}
+
+.synopsis_img img {
+  margin: 0% 10%;
+  width: 80%;
+  height: auto;
+}
+
+.dream_machine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dream_title {
+  font-family: "Fipps" !important;
+  color: #fc0;
+  /* text-shadow: #e9bf03 1px 1px, #e9bf03 -1px 1px, #e9bf03 -1px -1px,
+    #e9bf03 1px -1px; */
+  font-size: 45px;
+  margin: 2% 0%;
+}
+.dream_par {
+  width: 100%;
+  text-align: center;
+
+  font-family: "VCR OSD Mono";
+  font-size: 26px;
+  color: white;
+  margin: 2% 0%;
+}
+.carrosell {
+  display: block;
+  width: 90%;
+}
+.carrosell img {
+  width: 33%;
+}
+.anomalies_title {
+  text-align: center;
+  font-family: "Fipps";
+  color: #ff4a87;
+  font-size: 45px;
+  margin-top: 5%;
+}
+.anomalies_sub_title {
+  text-align: center;
+  font-family: "Noto Sans JP',sans-serif";
+  color: #fe0054;
+  font-weight: bold;
+  font-size: 45px;
+}
+.anomalies_par {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 26px;
+  color: white;
+  margin: 2% 0%;
+}
+.anomalies_img {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.anomalies_bloc {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.battery {
+  width: 20%;
+  margin: 3% auto;
+}
+.anomalies_bloc_common {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+  color: rgb(108, 180, 43);
+  margin: 2% 0%;
+}
+.anomalies_bloc_uncommon {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+  color: rgb(185, 175, 90);
+  margin: 2% 0%;
+}
+.anomalies_bloc_rare {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+  color: rgb(252, 110, 235);
+  margin: 2% 0%;
+}
+.anomalies_bloc_epic {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+  color: rgb(247, 118, 10);
+  margin: 2% 0%;
+}
+.anomalies_bloc_legendary {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+  color: rgb(204, 150, 2);
+  margin: 2% 0%;
+}
+.team-title {
+  text-align: center;
+  font-family: "Fipps";
+  color: #acb6d8;
+  font-size: 45px;
+  margin-top: 5%;
+}
+.team_sub_title {
+  text-align: center;
+  font-family: "Fipps";
+  color: #a897f9;
+  font-size: 45px;
+  margin: 0% 15%;
+}
+.team_img {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.team_bloc {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.team_bloc_title {
+  color: #99d1fd;
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 36px;
+}
+.team_bloc_sub_title {
+  color: #acb6d8;
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  font-size: 22px;
+}
+.roadmap_title {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.roadmap_title1 {
+  font-family: "Fipps";
+  color: #fec864;
+  font-size: 45px;
+}
+.roadmap_title2 {
+  font-family: "Noto Sans JP',sans-serif";
+  color: #fdb304;
+  font-size: 45px;
+  font-weight: bold;
+}
+.roadmap_par {
+  width: 80%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.roadmap_par1 {
+  width: 60%;
+  text-align: left;
+  font-family: "VCR OSD Mono";
+  font-size: 22px;
+  color: #fdb304;
+}
+.roadmap_par2 {
+  width: 40%;
+  text-align: right;
+  font-family: "VCR OSD Mono";
+  font-size: 22px;
+  color: #fec864;
+}
+
+.about_title {
+  text-align: center;
+  font-family: "Fipps";
+  color: #9bfdfc;
+  font-size: 45px;
+}
+.about_par {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  font-family: "VCR OSD Mono";
+  font-size: 24px;
+  color: #13bfff;
+}
+
+.about_par span {
+  color: #f1427a;
+}
+
+.wrapper {
+  /* This part is important for centering the content */
+
+  text-align: center;
+
+  /* End center */
+}
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+  transition: all 0.4s;
+  text-align: center;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: auto;
+  max-width: 90%;
+  background: rgba(80, 78, 78, 0.5);
+  padding: 1em 2em;
+  border: solid ;
+}
+
+.modal__footer {
+  text-align: right;
+}
+.modal__footer a {
+  color: #585858;
+}
+.modal__footer i {
+  color: #d02d2c;
+}
+
+.modal__close {
+  background-color: #595c59; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 7%;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+.text_c {
+  text-align: center;
+  font-family: "VCR OSD Mono";
+  color: #ffb700;
+}
+.text_l {
+  text-align: left;
+  font-family: "VCR OSD Mono";
+  color: white;
+}
+.text_r {
+  font-family: "VCR OSD Mono";
+  text-align: right;
+  color: white;
+}
+.footer{
+  height:300px;
+
+}
+.footer_sora{
+  text-align: right;
+  margin: 10% 5% auto ;
+width: 80%;
+}
+.footer_sora img {
+
+  width: 20%;
+}
+.footer_link{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+.footer_link span {
+  color: white;
+  font-family: "VCR OSD Mono";
+font-size: 24px;
+}
+
+.footer_img a:hover img{transition:.2s transform ; transform:scale(1.5)} 
